@@ -17,5 +17,11 @@ public class hangmanTest{
         assertEquals("David", playHangman.randomize());
     }
 
-    //
+    //Test to see if Words are Split into Characters
+    @Test
+    public void game_WillMakeWordsCharacters(){
+        Hangman playHangman = new Hangman();
+        String [] charWord = {"D","a","v","i","d"};
+        assertEquals(charWord, playHangman.convertToChar("David"));
+    }
 }

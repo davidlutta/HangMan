@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f29d015d-aea4-430c-afeb-1536024d4184" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/Hangman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Hangman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/hangmanTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/hangmanTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -21,11 +21,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="hangmanTest.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="hangmanTest.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/hangmanTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="336">
-              <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+            <state relative-caret-position="300">
+              <caret line="24" column="68" selection-start-line="24" selection-start-column="68" selection-end-line="24" selection-end-column="68" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -33,11 +33,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Hangman.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Hangman.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Hangman.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
-              <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+            <state relative-caret-position="295">
+              <caret line="21" column="18" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="18" />
               <folding>
                 <element signature="e#67#68#0" expanded="true" />
                 <element signature="e#91#92#0" expanded="true" />
@@ -375,8 +375,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/hangmanTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/Hangman.java" />
+        <option value="$PROJECT_DIR$/src/test/java/hangmanTest.java" />
       </list>
     </option>
   </component>
@@ -566,23 +566,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/hangmanTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/Hangman.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" column="52" selection-start-line="16" selection-start-column="52" selection-end-line="16" selection-end-column="52" />
+        <state relative-caret-position="295">
+          <caret line="21" column="18" selection-start-line="21" selection-start-column="8" selection-end-line="21" selection-end-column="18" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#67#68#0" expanded="true" />
+            <element signature="e#91#92#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/Hangman.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/hangmanTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="19" column="52" selection-start-line="19" selection-start-column="52" selection-end-line="19" selection-end-column="52" />
+        <state relative-caret-position="300">
+          <caret line="24" column="68" selection-start-line="24" selection-start-column="68" selection-end-line="24" selection-end-column="68" />
           <folding>
-            <element signature="e#67#68#0" expanded="true" />
-            <element signature="e#91#92#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
