@@ -30,6 +30,12 @@ public class Hangman{
         return CharWord;
     }
 
+    //Function to Break User input
+    public String [] convertUIToChar(String userInput){
+        String [] splitUserInput = userInput.split("");
+        return splitUserInput;
+    }
+
 
 
 
