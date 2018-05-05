@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="hangmanTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2018-05-05T04:27:18" hostname="192.168.1.11" time="0.004">
+<testsuite name="hangmanTest" tests="3" skipped="0" failures="0" errors="0" timestamp="2018-05-05T04:46:25" hostname="192.168.1.11" time="0.01">
   <properties/>
-  <testcase name="game_WillRandomizeWords" classname="hangmanTest" time="0.003"/>
-  <testcase name="game_WillReturnUsAString" classname="hangmanTest" time="0.001"/>
+  <testcase name="game_WillRandomizeWords" classname="hangmanTest" time="0.006"/>
+  <testcase name="game_WillMakeWordsCharacters" classname="hangmanTest" time="0.003"/>
+  <testcase name="game_WillReturnUsAString" classname="hangmanTest" time="0.0"/>
   <system-out><![CDATA[]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
