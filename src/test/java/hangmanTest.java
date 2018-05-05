@@ -9,4 +9,11 @@ public class hangmanTest{
         Hangman playHangman = new Hangman();
         assertEquals("David", playHangman.Words());
     }
+
+    //Test to check if the words are randomized
+    @Test
+    public void game_WillRandomizeWords(){
+        Hangman playHangman = new Hangman();
+        assertEquals("David", playHangman.randomize());
+    }
 }
