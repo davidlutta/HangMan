@@ -16,4 +16,6 @@ public class hangmanTest{
         Hangman playHangman = new Hangman();
         assertEquals("David", playHangman.randomize());
     }
+
+    //
 }

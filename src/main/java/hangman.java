@@ -1,9 +1,27 @@
 import java.util.Random;
 
-class Hangman{
+public class Hangman{
+
+    public String randomWord;
+
+    //Test to check if a string is returned
 
     public String Words(){
         return "David";
+    }
+
+    //Function to check if words are being randomized
+    public String randomize(){
+
+        String [] myWords = {"David", "Lutta", "Ezekiel"};
+
+        Random myRandomizedWord = new Random();
+
+        int indexedWord = myRandomizedWord.nextInt(1);
+
+        randomWord = myWords[indexedWord];
+
+        return randomWord;
     }
 
 
