@@ -24,4 +24,12 @@ public class hangmanTest{
         String [] charWord = {"D","a","v","i","d"};
         assertEquals(charWord, playHangman.convertToChar("David"));
     }
+
+    //Test to break-up User Input
+    @Test
+    public void game_WillMakeUserInputCharacters(){
+        Hangman playHangMan = new Hangman();
+        String [] charWord = {"D","a","v","i","d"};
+        assertEquals(charWord, playHangMan.convertUIToChar("David"));
+    }
 }
