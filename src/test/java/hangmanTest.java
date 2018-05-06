@@ -33,10 +33,4 @@ public class hangmanTest{
         assertEquals(charWord, playHangMan.convertUIToChar("David"));
     }
 
-    //Test to Check if Word that has been put matches the one required
-    @Test
-    public void game_CheckIfWordIsValid(){
-        Hangman playHangman = new Hangman();
-        assertEquals("David", playHangman.Validate());
-    }
 }
