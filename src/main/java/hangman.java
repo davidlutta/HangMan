@@ -7,7 +7,9 @@ public class Hangman{
     //Test to check if a string is returned
 
     public String Words(){
+
         return "David";
+
     }
 
     //Function to check if words are being randomized
